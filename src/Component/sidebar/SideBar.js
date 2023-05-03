@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./sidebar.css";
 export function SideBar() {
     return <>
@@ -6,10 +7,10 @@ export function SideBar() {
                 <a className="active" ><img height={"30px"} width={"150px"} src="/img/logo-no-background.png"/></a>
             </div>
             <div className="linkBox">
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
             </div>
             <div className="linkBox">
-                <a href="#viewuser">View Users</a>
+                <Link to="/viewuser">View Users</Link>
             </div>
             <div className="linkBox">
                 <a href="#collaborationdetails">Collaboration Details</a>
