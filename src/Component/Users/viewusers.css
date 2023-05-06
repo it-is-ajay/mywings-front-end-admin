@@ -1,0 +1,12 @@
+.searchUser{
+    width: auto;
+    
+}
+@media screen and (max-width:700px){
+    .tableDiv{
+        overflow: scroll;
+        height: 300px;
+        width: auto;
+        /* overflow: hidden; */
+    }
+}
